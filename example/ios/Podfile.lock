@@ -1,0 +1,37 @@
+PODS:
+  - Flutter (1.0.0)
+  - midpay (0.0.1):
+    - Flutter
+    - MidtransCoreKit
+    - MidtransKit
+  - MidtransCoreKit (1.16.3)
+  - MidtransKit (1.16.3):
+    - MidtransCoreKit (= 1.16.3)
+    - MidtransKit/UI (= 1.16.3)
+  - MidtransKit/UI (1.16.3):
+    - MidtransCoreKit (= 1.16.3)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - midpay (from `.symlinks/plugins/midpay/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MidtransCoreKit
+    - MidtransKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  midpay:
+    :path: ".symlinks/plugins/midpay/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  midpay: 62c6134b1fe180cecd67f0a116f54f4beb15ba2d
+  MidtransCoreKit: d82f1dd1b3694bc3e537fee97159d96a9959065f
+  MidtransKit: b7425222dc479aa2d98abd12c9f979aa41ee41d2
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.9.3
